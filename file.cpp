@@ -14,14 +14,8 @@ int main()
 		file>>word;
 		y[b++] = word;
 	}
-	int maxx=-1,maxy=-1;
-	for(int i=1; i<a; i++)
-	{
-		if(x[i]>maxx)	maxx = x[i];
-		if(y[i]>maxx)	maxy = y[i];
-	}
 	int p=1,q=1,left=1,right=1,flag=1;
-	int k=1,prev=0;
+	int k=1;
 	while(p<a)
 	{
 		left = x[p++];
@@ -31,7 +25,6 @@ int main()
 			for(int i=1; i<right; i++)
 			{
 				cout<<"   ";
-				prev++;
 			}	
 		}
 		else
