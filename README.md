@@ -1,9 +1,8 @@
 # Pattern-Generator
-Pattern generator in command line dialog box
-
+Pattern generator in command line dialog box.
 OpenCV python library is used to process the image and get important details.
 
-Cpp is used to display the pattern from data generated from python of image.
+C++ is used to display the pattern from data generated from python of image.
 
 Steps to run:
 
